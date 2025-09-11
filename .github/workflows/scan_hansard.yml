@@ -1,11 +1,11 @@
-name: Scan Hansard (House of Assembly)
+#name: Scan Hansard (House of Assembly)
 
-on:
-  schedule:
-    # Poll twice an hour during Hobart daytime (AEST/AEDT) — adjust as you like
-    - cron: '*/30 21-08 * * *'   # 07:00–18:00 Hobart ≈ 21–08 UTC
-  workflow_dispatch: {}
-
+#on:
+ # schedule:
+ #   # Poll twice an hour during Hobart daytime (AEST/AEDT) — adjust as you like
+ #   - cron: '*/30 21-08 * * *'   # 07:00–18:00 Hobart ≈ 21–08 UTC
+ # workflow_dispatch: {}
+#
 permissions:
   contents: write
 
